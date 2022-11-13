@@ -1,0 +1,56 @@
+\hypertarget{classCgPointFixNode}{}\doxysection{Cg\+Point\+Fix\+Node Class Reference}
+\label{classCgPointFixNode}\index{CgPointFixNode@{CgPointFixNode}}
+
+
+Inheritance diagram for Cg\+Point\+Fix\+Node\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=174pt]{classCgPointFixNode__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Cg\+Point\+Fix\+Node\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=199pt]{classCgPointFixNode__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCgPointFixNode_af1bee730bd643e9784ca9097f0fdbde0}\label{classCgPointFixNode_af1bee730bd643e9784ca9097f0fdbde0}} 
+{\bfseries Cg\+Point\+Fix\+Node} (\mbox{\hyperlink{structmass__spring__system}{mass\+\_\+spring\+\_\+system}} $\ast$system, float $\ast$vbuff)
+\item 
+\mbox{\Hypertarget{classCgPointFixNode_aab1b783eadc7ed5a5d10ed795472a235}\label{classCgPointFixNode_aab1b783eadc7ed5a5d10ed795472a235}} 
+virtual void {\bfseries satisfy} ()
+\item 
+\mbox{\Hypertarget{classCgPointFixNode_ae3e14565863c63795a6e4a444afa5cf6}\label{classCgPointFixNode_ae3e14565863c63795a6e4a444afa5cf6}} 
+virtual bool {\bfseries query} (unsigned int i) const
+\item 
+\mbox{\Hypertarget{classCgPointFixNode_a809cad5bd586b53794980a35c28323c2}\label{classCgPointFixNode_a809cad5bd586b53794980a35c28323c2}} 
+virtual void {\bfseries fix\+Point} (unsigned int i)
+\item 
+\mbox{\Hypertarget{classCgPointFixNode_a9a04807f6ea17db029ce8ac985bd8b6c}\label{classCgPointFixNode_a9a04807f6ea17db029ce8ac985bd8b6c}} 
+virtual void {\bfseries release\+Point} (unsigned int i)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCgPointFixNode_ab6f32fe064dc321014e8ac8244767f8e}\label{classCgPointFixNode_ab6f32fe064dc321014e8ac8244767f8e}} 
+typedef Eigen\+::\+Vector3f {\bfseries Vector3f}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCgPointFixNode_a5b3725572eb4564a0d61c7ecbdf8f225}\label{classCgPointFixNode_a5b3725572eb4564a0d61c7ecbdf8f225}} 
+std\+::unordered\+\_\+map$<$ unsigned int, Vector3f $>$ {\bfseries fix\+\_\+map}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Cloth\+App/Mass\+Spring\+Solver.\+h\item 
+Cloth\+App/Mass\+Spring\+Solver.\+cpp\end{DoxyCompactItemize}
