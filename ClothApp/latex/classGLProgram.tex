@@ -1,0 +1,64 @@
+\hypertarget{classGLProgram}{}\doxysection{GLProgram Class Reference}
+\label{classGLProgram}\index{GLProgram@{GLProgram}}
+
+
+Inheritance diagram for GLProgram\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{classGLProgram__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for GLProgram\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=162pt]{classGLProgram__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classGLProgram_a65a4aeae9c13b72568906ff52bbe6c38}\label{classGLProgram_a65a4aeae9c13b72568906ff52bbe6c38}} 
+virtual void {\bfseries link} (const \mbox{\hyperlink{classGLShader}{GLShader}} \&vshader, const \mbox{\hyperlink{classGLShader}{GLShader}} \&fshader)
+\item 
+\mbox{\Hypertarget{classGLProgram_a7fcacc648a05baf9c232e4b7ff036033}\label{classGLProgram_a7fcacc648a05baf9c232e4b7ff036033}} 
+virtual void {\bfseries post\+Link} ()
+\item 
+\mbox{\Hypertarget{classGLProgram_add1e12bbb3dd742503a399a28c765bf5}\label{classGLProgram_add1e12bbb3dd742503a399a28c765bf5}} 
+{\bfseries operator GLuint} () const
+\item 
+\mbox{\Hypertarget{classGLProgram_ab3016c6bd69c757f2a7713e7992bdb7e}\label{classGLProgram_ab3016c6bd69c757f2a7713e7992bdb7e}} 
+void {\bfseries set\+Model\+View} (glm\+::mat4 m)
+\item 
+\mbox{\Hypertarget{classGLProgram_aba6ea435dcdcc50dca570eca92af0b40}\label{classGLProgram_aba6ea435dcdcc50dca570eca92af0b40}} 
+void {\bfseries set\+Projection} (glm\+::mat4 m)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classGLProgram_ada4c843098ee03abd2fc99de6a7be15b}\label{classGLProgram_ada4c843098ee03abd2fc99de6a7be15b}} 
+void {\bfseries set\+Uniform\+Mat4} (GLuint unif, glm\+::mat4 m)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classGLProgram_aca3fcbaa0480abed0015307c6d774946}\label{classGLProgram_aca3fcbaa0480abed0015307c6d774946}} 
+GLuint {\bfseries handle}
+\item 
+\mbox{\Hypertarget{classGLProgram_a9e399c33cb0bf633917803f6ad5c51ba}\label{classGLProgram_a9e399c33cb0bf633917803f6ad5c51ba}} 
+GLuint {\bfseries u\+Model\+View\+Matrix}
+\item 
+\mbox{\Hypertarget{classGLProgram_afb6cf922754f93d2dc87b234ab9993dd}\label{classGLProgram_afb6cf922754f93d2dc87b234ab9993dd}} 
+GLuint {\bfseries u\+Projection\+Matrix}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Shader.\+h\item 
+Shader.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,11 @@
+<map id="UserInteraction" name="UserInteraction">
+<area shape="rect" id="node1" title=" " alt="" coords="182,349,305,376"/>
+<area shape="rect" id="node2" href="$classRenderer.html" title=" " alt="" coords="139,260,220,287"/>
+<area shape="rect" id="node3" href="$classGLProgram.html" title=" " alt="" coords="5,171,100,197"/>
+<area shape="rect" id="node4" href="$classNonCopyable.html" title=" " alt="" coords="62,95,171,121"/>
+<area shape="rect" id="node5" href="$classProgramInput.html" title=" " alt="" coords="124,171,235,197"/>
+<area shape="rect" id="node6" href="$classCgPointFixNode.html" title=" " alt="" coords="246,260,371,287"/>
+<area shape="rect" id="node7" href="$classCgPointNode.html" title=" " alt="" coords="259,171,366,197"/>
+<area shape="rect" id="node8" href="$classCgNode.html" title=" " alt="" coords="276,95,349,121"/>
+<area shape="rect" id="node9" href="$structmass__spring__system.html" title=" " alt="" coords="233,5,392,32"/>
+</map>
